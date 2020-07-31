@@ -33,7 +33,7 @@ const Hero = () => {
             <h4>especialista en medicina interna con más</h4>
             <h4>de 27 años de experiencia</h4>
             <Link to="/contact" className="btn">
-              contact me
+              pide tu cita
             </Link>
           </div>
         </article>

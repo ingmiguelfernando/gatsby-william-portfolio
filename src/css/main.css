@@ -37,6 +37,7 @@ Variables
   --clr-grey-4: hsl(209, 28%, 39%);
   /* grey used for paragraphs */
   --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-600:#718096;
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
@@ -136,7 +137,7 @@ p {
 .btn {
   text-transform: uppercase;
   background: var(--clr-primary-5);
-  color: var(--clr-primary-9);
+  color: var(--clr-grey-10);
   padding: 0.375rem 0.75rem;
   letter-spacing: var(--spacing);
   display: inline-block;
@@ -151,7 +152,7 @@ p {
 }
 .btn:hover {
   color: var(--clr-primary-1);
-  background: var(--clr-primary-8);
+  background: var(--clr-primary-10);
 }
 .center-btn {
   display: block;
@@ -506,6 +507,7 @@ Services
 .service-icon {
   font-size: 2rem;
   margin-bottom: 1.5rem;
+  fill: var(--clr-primary-5);
 }
 .service .underline {
   width: 3rem;
@@ -516,13 +518,14 @@ Services
 .service p {
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  color:var(--clr-grey-600);
 }
 .service:hover {
-  background: var(--clr-primary-5);
-  color: var(--clr-primary-9);
+  
+  
 }
 .service:hover p {
-  color: var(--clr-primary-9);
+  
 }
 .service:hover .underline {
   background: var(--clr-primary-9);
