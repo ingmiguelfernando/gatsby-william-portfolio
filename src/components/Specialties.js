@@ -4,7 +4,7 @@ import specialties from "../constants/specialties"
 import { motion } from "framer-motion"
 const Specialties = () => {
   return (
-    <section className="section bg-grey">
+    <section className="section bg-grey" id="especialidades">
       <Title title="Especialidades" />
       <div className="section-center services-center">
         {specialties.map(specialtie => {
@@ -19,7 +19,7 @@ const Specialties = () => {
             >
               {icon}
               <h4>{title}</h4>
-              <div className="underline"></div>
+              <div className="underline ml-auto"></div>
               <p>{text}</p>
             </motion.article>
           )

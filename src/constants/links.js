@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Link as LinkScroll } from "react-scroll"
 const data = [
   {
     id: 1,
@@ -9,7 +10,7 @@ const data = [
   {
     id: 2,
     text: "especialidades",
-    url: "/especialidades/",
+    section: "especialidades",
   },
   {
     id: 3,
@@ -23,12 +24,27 @@ const data = [
   },
 ]
 
+const GetLinkObject = (link) => {
+  if(link.url){
+    return <Link to={link.url}>{link.text}</Link>
+  }else{
+    return (
+      <LinkScroll
+        className="cursor-pointer"
+        to={link.section}
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
+      >
+        {link.text}
+      </LinkScroll>
+    )
+  }
+}
+
 const tempLinks = data.map(link => {
-  return (
-    <li key={link.id}>
-      <Link to={link.url}>{link.text}</Link>
-    </li>
-  )
+  return <li key={link.id}>{GetLinkObject(link)}</li>
 })
 
 export default ({ styleClass }) => {
