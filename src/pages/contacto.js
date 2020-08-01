@@ -13,7 +13,13 @@ const Contact = () => {
       <section className="contact-page">
         <article className="contact-form">
           <h3>Contacto</h3>
-          <form name="contact" method="POST" data-netlify="true">
+          <form
+            name="contact"
+            method="POST"
+            data-netlify-honeypot="bot-field"
+            data-netlify="true"
+          >
+            <input type="hidden" name="form-name" value="contact" />
             <div className="form-group">
               <input
                 type="text"
