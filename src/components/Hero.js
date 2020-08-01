@@ -32,7 +32,7 @@ const Hero = () => {
             <h2>izquierdo Vallecilla</h2>
             <h4>especialista en medicina interna con más</h4>
             <h4>de 27 años de experiencia</h4>
-            <Link to="/contact" className="btn">
+            <Link to="/contacto" className="btn">
               pide tu cita
             </Link>
           </div>

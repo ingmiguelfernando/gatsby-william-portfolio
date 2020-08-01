@@ -37,7 +37,7 @@ const OnlineConsultation = () => {
             casos más complicados, puede ser necesaria una segunda consulta presencial.
           </h4>
 
-          <Link to="/contact" className="btn">
+          <Link to="/contacto" className="btn">
             pide tu cita
           </Link>
         </div>

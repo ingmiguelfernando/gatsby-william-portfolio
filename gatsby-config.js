@@ -5,7 +5,15 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "Dr. William Izquierdo Vallecilla ",
+    description:
+      "Destacado especialista en Medicina Interna con más 27 años de experiencia",
+    author: "@ing.miguel.fernando",
+    twitterUsername: "@ing.miguel.fernando",
+    image: "/twitter-img.png",
+    siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
+  },
   plugins: [
     `gatsby-plugin-postcss`,
     `gatsby-transformer-sharp`,

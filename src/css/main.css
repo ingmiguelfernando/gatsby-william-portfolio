@@ -152,7 +152,7 @@ p {
 }
 .btn:hover {
   color: var(--clr-primary-1);
-  background: var(--clr-primary-10);
+  background: var(  --clr-grey-8);
 }
 .center-btn {
   display: block;
@@ -326,7 +326,7 @@ Sidebar
   border-radius: var(--radius);
 }
 .sidebar-links li a:hover {
-  background: var(--clr-primary-9);
+  background: var( --clr-grey-9);
   color: var(--clr-primary-5);
 }
 .close-btn {

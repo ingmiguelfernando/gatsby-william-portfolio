@@ -7,9 +7,9 @@ const Error = () => {
     <Layout>
       <main className="error-page">
         <div className="error-container">
-          <h1>ooops it's a dead end</h1>
+          <h1>Página no encontrada</h1>
           <Link to="/" className="btn">
-            back home
+            regresar al inicio
           </Link>
         </div>
       </main>

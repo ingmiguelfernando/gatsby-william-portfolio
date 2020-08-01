@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import Title from "../components/Title"
 import Image from "gatsby-image"
 import stacks from "../constants/stacks"
-// import SEO from "../components/SEO"
+import SEO from "../components/SEO"
 
 const About = ({
   data: {
@@ -16,14 +16,14 @@ const About = ({
   
   return (
     <Layout>
-      {/* <SEO title="About" description="about webDev"/> */}
+      <SEO title="Sobre mi" description="Sobre el Dr. William Izquierdo Vallecilla médico de Cali"/>
       <section className="about-page">
         <div className="section-center about-center">
-          <Image fluid={fluid} className="h-full col-span-5" />
+          <Image fluid={fluid} className=" col-span-5" style={{width:"100%"}}/>
           <article className="about-text">
             <Title title="Sobre mi" />
             <p className="text-justify">
-              El Dr. William izquierdo Vallecilla  es un
+              El Dr. William Izquierdo Vallecilla  es un
               destacado especialista en  Medicina Interna cuenta con 27 años de
               experiencia en diversas instituciones de prestigio en áreas de
               urgencia, hospitalización y consulta ambulatoria, tales como la Sociedad
