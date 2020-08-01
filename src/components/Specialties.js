@@ -2,6 +2,7 @@ import React from "react"
 import Title from "./Title"
 import specialties from "../constants/specialties"
 import { motion } from "framer-motion"
+
 const Specialties = () => {
   return (
     <section className="section bg-grey" id="especialidades">

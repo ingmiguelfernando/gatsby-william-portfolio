@@ -18,15 +18,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: `t4oz48qw9rqb`,
-        // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: `PTJ0spz39ogFZoSa3ArJMr3YDLzl2v4ngZfZsLnAyBY`,
-      },
-    },
-
-    {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
@@ -39,6 +30,6 @@ module.exports = {
           },
         ],
       },
-    }
+    },
   ],
 }

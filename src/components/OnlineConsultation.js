@@ -30,12 +30,11 @@ const OnlineConsultation = () => {
     >
       <article className="md:ml-32 lg:ml-32 xl:ml-32 mx-10  align-middle grid md:grid-cols-3 lg:grid-cols-3  xl:grid-cols-3 sm:grid-cols-1 mt-16">
         <div>
-          <h2>Obtén una consulta en línea</h2>
+          <h2>Consulta Médica sin salir de casa</h2>
           <div className="underline"></div>
           <h4 className="text-gray-600 normal-case text-justify">
             En la mayoría de los casos, la consulta inicial será suficiente. En
-            casos más complicados, puede ser necesaria una segunda consulta de
-            seguimiento.
+            casos más complicados, puede ser necesaria una segunda consulta presencial.
           </h4>
 
           <Link to="/contact" className="btn">
