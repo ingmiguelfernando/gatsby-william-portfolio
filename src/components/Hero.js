@@ -30,8 +30,9 @@ const Hero = () => {
             <div className="underline"></div>
             <h2>William</h2>
             <h2>izquierdo Vallecilla</h2>
-            <h4>especialista en medicina interna con más</h4>
-            <h4>de 27 años de experiencia</h4>
+            <h4>especialista en medicina interna </h4>
+            <h4>universidad del valle con más de</h4>
+            <h4>27 años de experiencia</h4>
             <Link to="/contacto" className="btn">
               pide tu cita
             </Link>

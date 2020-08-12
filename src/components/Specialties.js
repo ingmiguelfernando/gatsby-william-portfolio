@@ -5,8 +5,8 @@ import { motion } from "framer-motion"
 
 const Specialties = () => {
   return (
-    <section className="section bg-grey" id="especialidades">
-      <Title title="Especialidades" />
+    <section className="section bg-grey" id="servicios">
+      <Title title="Consultas" />
       <div className="section-center services-center">
         {specialties.map(specialtie => {
           const { id, icon, title, text } = specialtie

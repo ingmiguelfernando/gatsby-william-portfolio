@@ -14,8 +14,8 @@ const data = [
   },
   {
     id: 2,
-    text: "especialidades",
-    url: "/#especialidades",
+    text: "servicios",
+    url: "/#servicios",
   },
   {
     id: 3,
