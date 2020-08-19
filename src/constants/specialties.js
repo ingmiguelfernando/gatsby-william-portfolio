@@ -1,9 +1,7 @@
 import React from "react"
 import {
-  FaHeartbeat,
   FaLaptopMedical,
   FaStethoscope,
-  FaVial,
 } from "react-icons/fa"
 import { GiBrokenHeartZone, GiHealing } from "react-icons/gi"
 export default [
