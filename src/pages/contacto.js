@@ -4,7 +4,10 @@ import { useForm } from "react-hook-form"
 import SEO from "../components/SEO"
 
 const Contact = () => {
-  const { register, errors } = useForm()
+  const { register, errors } = useForm({
+    mode: "onSubmit",
+    shouldFocusError: true,
+  })
 
 
   return (

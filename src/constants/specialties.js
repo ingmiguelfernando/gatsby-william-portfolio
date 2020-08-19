@@ -14,18 +14,6 @@ export default [
     text: `Evaluación integral del estado de salud del paciente adulto con diferentes enfermedades o síntomas en varios órganos o sistemas del organismo cuyo diagnóstico es difícil y afectan su calidad de vida.  Medicina basada en la evidencia.`,
   },
   {
-    id: 2,
-    icon: <FaHeartbeat className="service-icon inline" />,
-    title: "Hipertensión arterial",
-    text: `Consulta  para la prevención, diagnóstico, tratamiento y seguimiento de personas con Hipertensión Arterial, Medicina basado en la evidencia.`,
-  },
-  {
-    id: 3,
-    icon: <FaVial className="service-icon inline" />,
-    title: "Diabetes mellitus",
-    text: `Consulta  para la prevención, diagnóstico, tratamiento y seguimiento de personas con  prediabetes y diabetes , Medicina basado en la evidencia.`,
-  },
-  {
     id: 4,
     icon: <GiBrokenHeartZone className="service-icon inline" />,
     title: "Riesgo cardiovascular",

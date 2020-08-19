@@ -520,17 +520,11 @@ Services
   transition: var(--transition);
   color:var(--clr-grey-600);
 }
-.service:hover {
-  
-  
-}
-.service:hover p {
-  
-}
+
 .service:hover .underline {
   background: var(--clr-primary-9);
 }
-@media screen and (min-width: 676px) {
+@media screen and (min-width: 992px) {
   .services-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -539,11 +533,7 @@ Services
     column-gap: 2rem;
   }
 }
-@media screen and (min-width: 992px) {
-  .services-center {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
+
 
 /*
 =============== 
