@@ -30,7 +30,6 @@
     "react-helmet": "^6.1.0",
     "react-hook-form": "^6.2.0",
     "react-icons": "^3.10.0",
-    "react-slick": "^0.27.6",
     "slick-carousel": "^1.8.1",
     "smooth-scroll": "^16.1.3"
   },

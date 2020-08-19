@@ -57,7 +57,7 @@ const Contact = () => {
 
               <input
                 type="text"
-                placeholder="teléfono o Celular"
+                placeholder="teléfono o WhatsApp"
                 name="phone"
                 className="form-control"
                 ref={register({

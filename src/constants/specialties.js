@@ -10,8 +10,8 @@ export default [
   {
     id: 1,
     icon: <FaStethoscope className="service-icon inline" />,
-    title: "Chequeo medico preventivo",
-    text: `Evaluacion del estado de salud de las personas de una manera completa y ágil mediante exámenes de control para Identificar problemas de salud antes de que ocurran y detectar a tiempo riesgos y enfermedades existentes, que puedan afectar la calidad de vida de las personas.`,
+    title: "Chequeo médico del adulto",
+    text: `Evaluación integral del estado de salud del paciente adulto con diferentes enfermedades o síntomas en varios órganos o sistemas del organismo cuyo diagnóstico es difícil y afectan su calidad de vida.  Medicina basada en la evidencia.`,
   },
   {
     id: 2,
@@ -29,18 +29,18 @@ export default [
     id: 4,
     icon: <GiBrokenHeartZone className="service-icon inline" />,
     title: "Riesgo cardiovascular",
-    text: `Consulta  para la prevención, diagnóstico, tratamiento y seguimiento de personas con riesgo cardiovascular para  cardiomiopatia isquemica y enfermedad cerebrovascular isquémica o hemorrágica. Medicina basado en la evidencia.`,
+    text: `Consulta para la prevención, diagnóstico, tratamiento y seguimiento de personas hipertensas, diabéticas, dislipidemicas o con riesgo cardiovascular para cardiomiopatía isquémica y enfermedad cerebrovascular isquémica o hemorrágica. Medicina basada en la evidencia.`,
   },
   {
     id: 5,
     icon: <GiHealing className="service-icon inline" />,
-    title: "Manejo especial de pacientes con V.I.H",
-    text: `Consulta para la prevención, diagnóstico, tratamiento y seguimiento de personas con  V.I.H/ Sida, Medicina basado en la evidencia.`,
+    title: "Tratamiento de paciente que conviven con VIH/SIDA",
+    text: `Consulta para la prevención, diagnóstico, tratamiento y seguimiento de personas con V.I.H/ SIDA, Medicina basado en la evidencia.`,
   },
   {
     id: 6,
     icon: <FaLaptopMedical className="service-icon inline" />,
     title: "Telemedicina",
-    text: `Consulta  no presencial mediante servicio  de videollamada,   Online o  asistencia telefónica  a pacientes que no se puedan desplazar al consultorio, se brinda   información, consejería y asesoría en los componentes de promoción de la salud,  prevención de la enfermedad, diagnóstico y  tratamiento.`,
+    text: `Consulta no presencial mediante servicio de videollamada, online o asistencia telefónica a pacientes que no se puedan desplazar al consultorio, se brinda información, consejería y asesoría en los componentes de promoción de la salud, prevención de la enfermedad, diagnóstico y tratamiento.`,
   },
 ]
