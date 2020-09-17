@@ -31,13 +31,13 @@ const About = ({
               El Dr. William Izquierdo Vallecilla es especialista en Medicina
               Interna egresado de la Universidad del Valle, cuenta con 27 años
               de experiencia laboral en diversas instituciones de prestigio de
-              la ciudad de cali, en áreas de urgencia, hospitalización y
+              la ciudad de Cali, en áreas de urgencia, hospitalización y
               consulta ambulatoria, tales como la Sociedad Médica del Pacífico y
               Clínica Colombia , sitios donde actualmente brinda consulta. Es
               egresado de la Universidad del Valle como Médico y Cirujano en
               1993 y como Especialista en Medicina Interna en 1999, miembro de
-              la sociedad colombiana de medicina interna(ACMI) y de la
-              asociación colombiana de infectologia (ACIN), además, ha trabajado
+              la sociedad Colombiana de medicina interna(ACMI) y de la
+              asociación Colombiana de infectologia (ACIN), además, ha trabajado
               como docente en medicina interna para diferentes universidades de
               la ciudad de Cali tales como Universidad del Valle, Universidad
               Santiago de Cali y Universidad libre. Desde el año 2000 brinda
