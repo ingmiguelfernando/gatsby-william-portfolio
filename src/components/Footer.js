@@ -7,11 +7,11 @@ const Footer = () => {
         <h4>Calle 5B # 42 - 16 Consultorio. 203</h4>
         <h4>Sociedad Medica del Pacífico B/ Tequendama</h4>
 
-        <h4>
-          <FaPhoneAlt fill="#718096" className="inline text-lg mr-1" />
-          (+2)554 6673{" "}
-          <FaWhatsapp fill="#718096" className="inline text-xl mx-1" />
+        <h4>          
+          <FaPhoneAlt fill="#718096" className="inline text-xl mx-1" />
           (+57) 317 525 1469{" "}
+          <FaPhoneAlt fill="#718096" className="inline text-lg mr-1" />
+          (+57) 316 332 4799{" "}
         </h4>
         <h4 className="normal-case text-base">
           consultorioespecialista04@hotmail.com
